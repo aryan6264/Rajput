@@ -37,7 +37,7 @@ def send_messages():
     requests.packages.urllib3.disable_warnings()
 
     def cls():
-        if system() == ' 'Linux':
+        if system() == 'Linux':
             os.system('clear')
         else:
             if system() == 'Windows':
